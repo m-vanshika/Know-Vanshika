@@ -1,0 +1,40 @@
+.list1{
+    display: flex;
+    gap: 15rem;
+}
+.listItem1{
+    align-self: center;
+    text-align-last: center;
+    background: var(--color-white);
+    aspect-ratio: 1/1;
+    padding: 1rem;
+    vertical-align: center;
+    border: 1px solid transparent;
+    border-radius: 20rem;
+}
+
+.listItem1:hover{
+    
+    background:transparent;
+    border-color: var(--color-primary);
+}
+/* media queries (medium devices) to make responsive*/
+@media screen and (max-width:1024px) {
+    .list1{
+        display: flex;
+        gap: 5rem;
+    }
+}
+/* media queries (small devices) to make responsive*/
+@media screen and (max-width:600px) {
+    .listItem1{
+        align-self: center;
+        text-align-last: center;
+        background: var(--color-white);
+        aspect-ratio: 1/1;
+        padding: 0;
+        vertical-align: center;
+        border: 1px solid transparent;
+        border-radius: 5rem;
+    }
+}

@@ -9,12 +9,19 @@ import {AiFillHtml5} from 'react-icons/ai'
 import {DiJavascript1} from 'react-icons/di'
 import {IoLogoCss3} from 'react-icons/io'
 import {TbCSharp} from 'react-icons/tb'
-import {AiFillAndroid} from 'react-icons/ai'
+import {DiAndroid} from 'react-icons/di'
 import {HiOutlineDesktopComputer} from 'react-icons/hi'
 import {FaGamepad} from 'react-icons/fa'
 import {SiFirebase} from 'react-icons/si'
 import {SiMysql} from 'react-icons/si'
 import {SiSqlite} from 'react-icons/si'
+import {AiFillGithub} from 'react-icons/ai'
+import {IoLogoBitbucket} from 'react-icons/io'
+import {SiJirasoftware} from 'react-icons/si'
+import {FaReact} from 'react-icons/fa'
+import {SiSelenium} from 'react-icons/si'
+import {FaUnity} from 'react-icons/fa'
+import {BsPenFill} from 'react-icons/bs'
 /*import {} from 'react-icons/'*/
 const Skills = () => {
   return (
@@ -22,154 +29,230 @@ const Skills = () => {
       <h5>What am I good at</h5>
       <h2>My Skills</h2>
       <div className='container skills__container'>
-        <div className="skills__languages">
-            <h3>Languages</h3>
-            <div className="skills__content">
-              
-            <article className='skills__details'>
-                <FaJava/>
-                <h4>Java</h4>
-                <small className='text-light'>Experienced</small>
-              </article>
-
-              <article className='skills__details'>
-                <SiPython/>
-                <h4>Python</h4>
-                <small className='text-light'>Experienced</small>
-              </article>
-              
-              <article className='skills__details'>
-                <SiCplusplus/>
-                <h4>C++</h4>
-                <small className='text-light'>Intermediate</small>
-              </article>
-
-              <article className='skills__details'>
-                <SiCodio/>
-                <h4>C</h4>
-                <small className='text-light'>Intermediate</small>
-              </article>
-
-
-              <article className='skills__details'>
-                <AiOutlineConsoleSql/>
-                <h4>SQL</h4>
-                <small className='text-light'>Intermediate</small>
-              </article>
-
-
-              <article className='skills__details'>
-                <AiFillHtml5/>
-                <h4>HTML</h4>
-                <small className='text-light'>Basic</small>
-              </article>
-
-              <article className='skills__details'>
-                <IoLogoCss3/>
-                <h4>CSS</h4>
-                <small className='text-light'>Basic</small>
-              </article>
-
-              <article className='skills__details'>
-                <DiJavascript1/>
-                <h4>JavaScript</h4>
-                <small className='text-light'>Basic</small>
-              </article>
-
-              <article className='skills__details'>
-                <TbCSharp/>
-                <h4>C#</h4>
-                <small className='text-light'>Basic</small>
-              </article>
-
-
-            </div>
-          </div>
         <div className="skills__development">
         <h3>Development</h3>
             <div className="skills__content">
             <article className='skills__details'>
-                <AiFillAndroid/>
+                <DiAndroid className='skills__details-icon'/>
+                <div>
                 <h4>Android App Development</h4>
                 <small className='text-light'>Intermediate</small>
-              </article>
+              
+                  </div> 
+                </article>
 
               <article className='skills__details'>
-                <HiOutlineDesktopComputer/>
+                <HiOutlineDesktopComputer  className='skills__details-icon'/>
+                <div>
                 <h4>Web Development</h4>
                 <small className='text-light'>Intermediate</small>
-              </article>
+              
+                  </div> 
+                </article>
 
               <article className='skills__details'>
-                <FaGamepad/>
+                <FaGamepad  className='skills__details-icon'/>
+                <div>
                 <h4>Game Development</h4>
                 <small className='text-light'>Basic</small>
-              </article>
+             
+                  </div> 
+                 </article>
             </div>
           </div>
         <div className="skills__databases">
         <h3>Database</h3>
             <div className="skills__content">
             <article className='skills__details'>
-                <SiFirebase/>
+                <SiFirebase  className='skills__details-icon'/>
+                <div>
                 <h4>FireBase</h4>
                 <small className='text-light'>Intermediate</small>
-              </article>
+             
+                  </div> 
+                 </article>
               <article className='skills__details'>
-                <SiMysql/>
+                <SiMysql  className='skills__details-icon'/>
+                <div>
                 <h4>MySQL</h4>
                 <small className='text-light'>Basic</small>
-              </article>
+             
+                  </div> 
+                 </article>
               <article className='skills__details'>
-                <SiSqlite/>
+                <SiSqlite  className='skills__details-icon'/>
+                <div>
                 <h4>SQLite</h4>
                 <small className='text-light'>Basic</small>
-              </article>
+             
+                  </div> 
+                 </article>
 
             </div>
         </div>
+        <div className="skills__languages">
+            <h3>Languages</h3>
+            <div className="skills__content">
+              
+            <article className='skills__details'>
+                <FaJava  className='skills__details-icon'/>
+                <div>
+
+                <h4>Java</h4>
+                <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+
+              <article className='skills__details'>
+                <SiPython  className='skills__details-icon'/>
+                <div>
+                <h4>Python</h4>
+                <small className='text-light'>Experienced</small>
+              
+                  </div> 
+                </article>
+              
+              <article className='skills__details'>
+                <SiCplusplus  className='skills__details-icon'/>
+                <div>
+                <h4>C++</h4>
+                <small className='text-light'>Intermediate</small>
+              
+                </div> 
+                </article>
+
+              <article className='skills__details'>
+                <SiCodio  className='skills__details-icon'/>
+                <div>
+                <h4>C</h4>
+                <small className='text-light'>Intermediate</small>
+              
+                </div> 
+                </article>
+
+
+              <article className='skills__details'>
+                <AiOutlineConsoleSql  className='skills__details-icon'/>
+                <div>
+                <h4>SQL</h4>
+                <small className='text-light'>Intermediate</small>
+              
+                </div> 
+                </article>
+
+
+              <article className='skills__details'>
+                <AiFillHtml5 className='skills__details-icon'/>
+                <div>
+                <h4>HTML</h4>
+                <small className='text-light'>Basic</small>
+              
+                </div> 
+                </article>
+
+              <article className='skills__details'>
+                <IoLogoCss3  className='skills__details-icon'/>
+                <div>
+                <h4>CSS</h4>
+                <small className='text-light'>Basic</small>
+              
+                </div> 
+                </article>
+
+              <article className='skills__details'>
+                <DiJavascript1 className='skills__details-icon'/>
+                <div>
+                <h4>JavaScript</h4>
+                <small className='text-light'>Basic</small>
+              
+                </div> 
+                </article>
+
+              <article className='skills__details'>
+                <TbCSharp className='skills__details-icon'/>
+                <div>
+                <h4>C#</h4>
+                <small className='text-light'>Basic</small>
+             
+                </div> 
+ </article>
+
+
+            </div>
+          </div>
+        
         <div className="skills__others">
           <h3>Miscelaneous</h3>
           <div className="skills__content">
           <article className='skills__details'>
-                <SiSqlite/>
+                <AiFillGithub className='skills__details-icon'/>
+                <div>
                 <h4>Git and GitHub</h4>
                 <small className='text-light'>Experienced</small>
-              </article>
+              
+                </div> 
+                </article>
               <article className='skills__details'>
-                <SiSqlite/>
+                <IoLogoBitbucket className='skills__details-icon'/>
+                <div>
                 <h4>BitBucket</h4>
                 <small className='text-light'>Experienced</small>
-              </article>
+              
+                </div> 
+                </article>
               <article className='skills__details'>
-                <SiSqlite/>
+                <SiJirasoftware className='skills__details-icon'/>
+                <div>
                 <h4>Jira and Confluence</h4>
                 <small className='text-light'>Experienced</small>
-              </article>
+              
+                </div> 
+                </article>
               <article className='skills__details'>
-                <SiSqlite/>
+                <FaReact className='skills__details-icon'/>
+                <div>
                 <h4>React</h4>
                 <small className='text-light'>Basic</small>
-              </article>
+              
+                </div> 
+                </article>
               <article className='skills__details'>
-                <SiSqlite/>
+                <SiSelenium className='skills__details-icon'/>
+                <div>
                 <h4>Selenium</h4>
                 <small className='text-light'>Intermediate</small>
-              </article>
+                  </div>
+                </article>
               <article className='skills__details'>
-                <SiSqlite/>
+                <FaUnity className='skills__details-icon'/>
+                <div>
                 <h4>Unity 2D</h4>
                 <small className='text-light'>Basic</small>
-              </article>
+              
+                  </div> 
+                </article>
               <article className='skills__details'>
-                <SiSqlite/>
-                <h4>English and Hindi Languages</h4>
+                <BsPenFill className='skills__details-icon'/>
+                <div>
+                  
+                <h4>English</h4>
                 <small className='text-light'>Professional Proficiency</small>
+              </div>
               </article>
               <article className='skills__details'>
-                <SiSqlite/>
-                <h4>German</h4>
-                <small className='text-light'>Basic</small>
+                <BsPenFill className='skills__details-icon'/>
+                <div>
+                  <h4>Hindi</h4>
+                  <small className='text-light'>Professional Proficiency</small>
+                </div> 
+
+              </article>
+              <article className='skills__details'>
+                <BsPenFill className='skills__details-icon'/>
+                <div>
+                  <h4>German</h4>
+                  <small className='text-light'>Basic</small>
+                </div>              
               </article>
             </div>
         </div>

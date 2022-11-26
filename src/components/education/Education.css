@@ -1,0 +1,65 @@
+.degName{
+    background-color: var(--color-bg-variant);
+    height: 7rem;
+    text-align: center;
+    padding-top: 2rem;
+    border: 1px solid transparent;
+    border-radius: 1rem 1rem 0 0;
+    transition: var(--transition);
+}
+.degInfo{
+    display: none;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.degName:hover{
+    border-color: var(--color-primary);
+    border-radius: 1rem 1rem 0 0;
+    background: transparent;
+}
+.degName:hover+div
+{
+  display: block;
+  background: var(--color-primary);
+  border-radius: 0 0 1rem 1rem ;
+  color: var(--color-bg);
+}
+.degInfo:hover{
+    display: block;
+    background: var(--color-primary);
+    border-radius: 0 0 1rem 1rem ;
+    color: var(--color-bg);
+}
+.education__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.degPoint{
+    padding-left: 2rem;
+    display: flex;
+}
+
+.degIcon{
+    transform: scale(1.5);
+    padding-right: 0.2rem;
+    padding-top: 0.5rem;
+}
+
+/* media queries (medium devices) to make responsive*/
+@media screen and (max-width:1024px) {
+    .degName{
+        padding-top: 1rem;
+    }
+    }
+    /* media queries (small devices) to make responsive*/
+    @media screen and (max-width:600px) {
+
+        .education__container{
+            grid-template-columns: 1fr 1fr ;
+            gap: 1rem;
+        }
+        .degName{
+            height: 9rem;
+        }
+    }    

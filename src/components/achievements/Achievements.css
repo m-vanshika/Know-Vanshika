@@ -1,0 +1,44 @@
+.container__achievements{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+}
+.achievements{
+    background-color: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    
+    transition: var(--transition);
+}
+.achievements:hover{
+    border-color: var(--color-primary);
+    background: transparent;
+}
+.list{
+    padding-left: 2rem;
+}
+.listItemLink{
+    color: var(--color-white);
+    padding-left: 0.2rem;
+    
+    transition: var(--transition);
+}
+.listItemLink:hover{
+    color: var(--color-primary);
+}
+
+
+/* media queries (medium devices) to make responsive*/
+@media screen and (max-width:1024px) {
+    .container__achievements{
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+}
+/* media queries (small devices) to make responsive*/
+@media screen and (max-width:600px) {
+    .container__achievements{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
