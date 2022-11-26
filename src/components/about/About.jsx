@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 import ME from '../../assets/myPic.jpg'
-import ME2 from '../../assets/mypic2.jpg'
 import {IoIosTime} from 'react-icons/io'
 import {GiTargetPrize} from 'react-icons/gi'
 import {GoProject} from 'react-icons/go'
