@@ -33,8 +33,7 @@ const Education = () => {
               </div>
               <div className='degPoint'>
                 <GrScorecard className='degIcon'/>
-                <h4>9.54/10</h4>
-                <small className='text-light'>(Till 6th semester)</small>
+                <h4>9.51/10</h4>
               </div>
               <div className='degPoint'>
                 <SiFuturelearn className='degIcon'/>
