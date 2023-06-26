@@ -27,7 +27,7 @@ const Experience = () => {
           <div className='experiene__head'>
             <img src={NIC} alt='NIC logo'/>
             <div><h3>Project Intern-National Informatics Centre</h3>
-            <small className='text-light'>August'22 to Present</small>
+            <small className='text-light'>August'22 to November'22</small>
             </div>
             
           </div>
