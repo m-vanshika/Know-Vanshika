@@ -122,6 +122,42 @@ const Education = () => {
           </div>
           <div className='thisEdu'>
             <div className='degName'>
+              <h3>Diploma in German Language</h3>
+            </div>
+            <div className='degInfo'>
+            <div className='degPoint'>
+                <FaSchool className='degIcon'/>
+                <h4>Banasthali Vidyapith</h4>
+              </div>
+              <div className='degPoint'>
+                <BiTimer className='degIcon'/>
+                <h4>2021-2022</h4>
+              </div>
+              <div className='degPoint'>
+                <GrScorecard className='degIcon'/>
+                <h4>79.66%</h4>
+              </div>
+              
+            </div>
+          </div> <div className='thisEdu'>
+            <div className='degName'>
+              <h3>Certificate in German for Conversation Elementary</h3>
+            </div>
+            <div className='degInfo'>
+            <div className='degPoint'>
+                <FaSchool className='degIcon'/>
+                <h4>Banasthali Vidyapith</h4>
+              </div>
+              <div className='degPoint'>
+                <BiTimer className='degIcon'/>
+                <h4>2021-2022</h4>
+              </div>
+              
+              
+            </div>
+          </div>
+          <div className='thisEdu'>
+            <div className='degName'>
               <h3>Certificate in German Language</h3>
             </div>
             <div className='degInfo'>
@@ -137,23 +173,6 @@ const Education = () => {
                 <GrScorecard className='degIcon'/>
                 <h4>82%</h4>
               </div>
-              
-            </div>
-          </div>
-          <div className='thisEdu'>
-            <div className='degName'>
-              <h3>Game Development Using python</h3>
-            </div>
-            <div className='degInfo'>
-            <div className='degPoint'>
-                <FaSchool className='degIcon'/>
-                <h4>Guvi</h4>
-              </div>
-              <div className='degPoint'>
-                <BiTimer className='degIcon'/>
-                <h4>2021</h4>
-              </div>
-              
             </div>
           </div>
       </div>
