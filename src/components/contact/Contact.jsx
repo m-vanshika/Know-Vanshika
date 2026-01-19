@@ -27,12 +27,6 @@ const Contact = () => {
             <h5>vanshikav.kumar@gmail.com</h5>
             <a href='mailto:vanshikav.kumar@gmail.com' target='_blank'>Mail Now</a>
           </article>
-          <article className='contact__option'>
-            <BsLinkedin className='contact__option-icon'/>
-            <h4>LinkedIn</h4>
-            <h5>@m-vanshika</h5>
-            <a href='https://www.linkedin.com/in/m-vanshika/ 'target='_blank'>Ping Now</a>
-          </article>
         </div>
         {/*<form action='https://formspree.io/f/meqdwlyq' method='POST'>*/}
         <form ref={form} onSubmit={sendEmail}>
