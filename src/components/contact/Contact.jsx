@@ -33,12 +33,6 @@ const Contact = () => {
             <h5>@m-vanshika</h5>
             <a href='https://www.linkedin.com/in/m-vanshika/ 'target='_blank'>Ping Now</a>
           </article>
-          <article className='contact__option'>
-            <BsWhatsapp className='contact__option-icon'/>
-            <h4>Whatsapp</h4>
-            <h5>+91 821 858 1767</h5>
-            <a href='https://api.whatsapp.com/send?phone=918218581767' target='_blank'>Message Now</a>
-          </article>
         </div>
         {/*<form action='https://formspree.io/f/meqdwlyq' method='POST'>*/}
         <form ref={form} onSubmit={sendEmail}>
